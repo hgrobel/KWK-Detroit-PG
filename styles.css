@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #C8DFE6;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,21 +9,39 @@
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Abril Fatface', cursive;
   color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
 }
 
 #heart {
   width: 70px;
   height: 100px;
-  margin-left: 12px;
+  margin-left: 16px;
   margin-right: 12px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
-.images {
-  margin-top: 30px;
-  height: 100px;
-  width: 350px;
+#images {
+  height: 230px;
+  width: 360px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgparent {
+  display: flex;
+  flex-wrap: wrap;
 }
